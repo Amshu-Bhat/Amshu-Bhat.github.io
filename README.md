@@ -34,5 +34,5 @@ Some projects of interest are linked below, in chronological order, with a brief
     - Linked 3D models to animations
 
 ## Contact Details
-Email: amshu06@gmail.com
+Email: amshu06@gmail.com  
 LinkedIn: [LinkedIn Link](http://www.linkedin.com/in/amrthaamshu-bhat)
