@@ -1,0 +1,38 @@
+/* 
+Stylesheet for any misc pages that are not a part of a project, like the landing page.
+*/
+
+/* :root{
+    
+} */
+
+body{
+    color: black;
+    background-color: rgba(220, 220, 220, 0.9); 
+    padding: 0px 5px;
+}
+
+
+header{
+    display: flex;
+    position: sticky;
+}
+
+#home-link{
+    max-width: 10vw;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height:auto;
+}
+
+h2{
+
+}
+
+#table-of-contents{
+    display: inline flex;
+    flex-direction: column;
+}
