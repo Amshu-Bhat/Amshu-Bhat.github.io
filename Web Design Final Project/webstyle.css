@@ -13,7 +13,7 @@ I was getting quickly tired of having to type out the hex for the background and
 	--dark-fg-color: #000000;
 	--light-translucent-bg-color: rgba(220, 220, 220, 0.9);
 	--dark-translucent-bg-color: rgba(51, 51, 51, 0.9);
-	--header-height: 15vh;
+	--header-height: 8vh;
 }
 /*Hyper generic things for every page*/
 body{

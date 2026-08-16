@@ -14,25 +14,98 @@ body{
 
 
 header{
-    display: flex;
+    display: inline flex;
+    vertical-align: middle;
+    flex-wrap: nowrap;
+    border: thick double black;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    gap: 5vw;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 96vw;
+    background-color: #5355e0;
     position: sticky;
+    max-height: 10vh;
+    z-index: 9999;
 }
 
+#header-subfield{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #dfdfdf;
+    width: fit-content;
+
+}
+
+#header-subfield > *{
+    border-right: 2px dotted black;
+    border-left: 2px dotted black;
+    margin: 10px;
+    padding: 0px 10px;
+}
+
+
 #home-link{
-    max-width: 10vw;
+    height: 100%;
+    flex-grow: 0;
+    max-width: 20vw;
+    background-color: #dfdfdf;
+    padding: 16px 16px;
+
+
 }
 
 main{
+    flex-flow: column;
     display: flex;
-    width: 100vw;
     height:auto;
+    height: fit-content;
+    position: relative;
+    margin: 5px;
+    background-color: #beeeca;
+    color: #000000;
 }
 
-h2{
-
+main > *{
+    margin: 15px 15px;
 }
 
 #table-of-contents{
     display: inline flex;
     flex-direction: column;
+}
+
+h2{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+li{
+    padding-bottom: 10px;
+}
+
+figure{
+    display: flex;
+	align-self: center;
+	flex-direction: column;
+	max-height: auto;
+}
+
+figure > img{
+    object-fit: cover;
+	align-self: center;
+	max-height: inherit;
+	max-width: 50%;
+}
+
+figcaption{
+    align-self: center;
+	max-width: inherit;
+	max-height: inherit;
+	font-size: medium;
 }
